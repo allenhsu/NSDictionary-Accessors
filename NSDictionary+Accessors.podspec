@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.authors      = { "Allen Hsu" => "me@imallen.com" }
   s.source       = { :git => "https://github.com/allenhsu/NSDictionary-Accessors.git", :tag => '1.0.0' }
-  s.framework    = 'CoreFoundation'
+  s.framework    = 'Foundation'
   s.source_files = '*.{h,m}'
   s.requires_arc = true
 end
